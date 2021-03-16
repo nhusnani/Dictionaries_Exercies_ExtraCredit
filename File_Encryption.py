@@ -1,9 +1,6 @@
 work_file = open("info_security.txt", "r")
-
 encrypted_file = open("enrypted_info_security.txt", "w")
-
 info_text = work_file.read()
-
 info_list = info_text.split()
 
 values = [
@@ -117,8 +114,6 @@ key = [
     "Z",
 ]
 
-print(len(values))
-print(len(key))
 
 encrypt_dict = {}
 i = 0
